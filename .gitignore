@@ -1,0 +1,7 @@
+fake_news.code-workspace
+fake_news/
+*.csv
+src/__pycache__/
+src/.mypy_cache
+fine_tuning_news.ipynb
+transfer_learning_400_highest_original/
