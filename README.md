@@ -4,11 +4,15 @@
 
 ## Dataset
 
-The [dataset](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets) for this project can be found on Kaggle, along with an additional [dataset](https://www.kaggle.com/datasets/hassanamin/textdb3?resource=download) used exclusively for testing (licensed under CC0: Data files © Original Authors).
+This project uses two political news datasets from Kaggle:
 
-The data contains political news articles labeled as either "Fake" or "True", meaning opinion-based or factual reporting, respectively, along with publication date, subject and title. All "True" articles in the original dataset come from Reuters, creating strong source bias. To better assess model generalization, a second dataset was introduced, which also consists of political news articles but comes from a broader range of sources.
+- [Original Dataset](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets): Contains 23,481 "Fake" articles and 21,417 "True" articles, totaling 44,898 entries. "True" refers to factual reporting, while "Fake" reflects opinion-based content. Each article includes a title, main text, subject category, and publication date. All "True" articles are sourced from Reuters, introducing a strong source bias. The "Fake" articles come from various less credible websites or unknown publishers.
 
-The original dataset was found to contain repeated patterns tied to news agency names, embedded tweet links, and metadata fragments—issues that introduce data leakage. Several entries also stood out as potentially anomalous, such as tweet reposts, very short texts, and promotional content. Both datasets included empty texts and duplicate entries.
+- [Second Dataset](https://www.kaggle.com/datasets/hassanamin/textdb3?resource=download): Used exclusively for testing. It includes 6,335 political news articles labeled as "Fake" or "True", drawn from a wider range of sources. Unlike the original dataset, it is class-balanced.
+
+The original dataset shows repeated patterns tied to news agency names, embedded tweet links, and metadata fragments—issues that introduce data leakage. Some entries also appear anomalous, including tweet reposts, promotional content, and very short texts. Both datasets include empty texts and duplicate entries.
+
+Both datasets are released under the CC0 license (Data files © Original Authors).
 
 ## Objectives
 
