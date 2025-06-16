@@ -16,7 +16,7 @@ Both datasets are released under the CC0 license (Data files © Original Authors
 
 ## Objectives
 
-The use case for this project aligns with tools like Ground News, which aim to enhance media literacy by helping readers assess the reliability and bias of news sources. Ground News provides per-organization factuality ratings based on evaluations from independent organizations. This concept could be extended to per-article evaluations as a service offered to clients.
+This project focuses on one aspect of what platforms like [Ground News](https://ground.news/) offer: evaluating the reliability of news content. While Ground News assigns factuality and bias ratings at the outlet level, this project aims to assess reliability at the article level, offering more granular insight into individual news stories.
 
 The main objective of the project is:
 
